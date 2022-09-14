@@ -1,0 +1,205 @@
+{
+	"pages": [
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/registered/registered",
+			"style": {
+				"navigationBarTitleText": "挂号",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "医师课堂",
+				"enablePullDownRefresh": false,
+				"onReachBottomDistance": 100
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/xinguan-vaccine/xinguan-vaccine",
+			"style": {
+				"navigationBarTitleText": "新馆疫苗接种预约",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my-service/xinguan/xinguan",
+			"style": {
+				"navigationBarTitleText": "新冠疫苗预约订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/hpv-vaccine/hpv-vaccine",
+			"style": {
+				"navigationBarTitleText": "宫颈癌疫苗在线预约",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/hpv-vaccine/hpv-buy",
+			"style": {
+				"navigationBarTitleText": "宫颈癌疫苗提交页面",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my-service/hpv-view/hpv-view",
+			"style": {
+				"navigationBarTitleText": "宫颈癌疫苗预约订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my-service/nucleic-acid/nucleic-acid",
+			"style": {
+				"navigationBarTitleText": "核酸检测预约订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/nucleic-acid/nucleic-acid",
+			"style": {
+				"navigationBarTitleText": "核酸检测预约",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/graphics/graphics",
+			"style": {
+				"navigationBarTitleText": "图文资讯",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my-service/my-patient/my-patient",
+			"style": {
+				"navigationBarTitleText": "我的就诊人",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my-service/my-patient/add-patient",
+			"style": {
+				"navigationBarTitleText": "添加就诊人",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/phy-exam/phy-exam",
+			"style": {
+				"navigationBarTitleText": "体检预约",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/phy-exam/Detail",
+			"style": {
+				"navigationBarTitleText": "体检详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my-service/phy-exam/phy-exam",
+			"style": {
+				"navigationBarTitleText": "体检预约订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/self-test/topic",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#d9e8fd"
+			}
+		},
+		{
+			"path": "pages/doctor/doctor",
+			"style": {
+				"navigationBarTitleText": "选择医生",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/doctor/doctor-Homepage",
+			"style": {
+				"navigationBarTitleText": "医生主页",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/self-test/result",
+			"style": {
+				"navigationBarTitleText": "测评结果",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#d9e8fd"
+			}
+		},
+		{
+			"path": "pages/my-service/my-registration/my-registration",
+			"style": {
+				"navigationBarTitleText": "挂号订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#2259ea",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/iconfont/home.png",
+				"selectedIconPath": "/static/iconfont/home-o.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/registered/registered",
+				"iconPath": "/static/iconfont/regestered.png",
+				"selectedIconPath": "/static/iconfont/regestered-o.png",
+				"text": "挂号"
+			},
+			{
+				"pagePath": "pages/video/video",
+				"iconPath": "/static/iconfont/video-o.png",
+				"selectedIconPath": "/static/iconfont/video.png",
+				"text": "医师列表"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "/static/iconfont/my.png",
+				"selectedIconPath": "/static/iconfont/my-o.png",
+				"text": "我的"
+			}
+		]
+	}
+}
